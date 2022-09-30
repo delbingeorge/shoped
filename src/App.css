@@ -1,21 +1,30 @@
+@font-face {
+    font-family: "Coolvetica";
+    src: url(../src/media/fonts/coolvetica\ rg.otf);
+}
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Coolvetica";
+    font-weight: 100;
 }
 
 :root {
-    --primary-brand-color: rgb(255, 6, 6);
+    --primary-brand-color: #faa62c;
     --primary-brand-white: #f4f7ff;
 }
 
 ::-webkit-scrollbar {
     width: 10px;
 }
+
 ::-webkit-scrollbar-track {
-    background-color: var(--primary-brand-color);
+    background-color: var(--primary-brand-white);
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: rgb(148, 211, 0);
+    background-color: var(--primary-brand-color);
 }
+
+

@@ -1,0 +1,42 @@
+.hero-section {
+    background-color: var(--primary-brand-white);
+}
+
+.hero-div-banner {
+    height: 40vh;
+    padding: 0.8rem 1.5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.hero-banner-one {
+    width: 78%;
+    background-image: url(../HeroSection/hero-banner-one.jpg);
+    background-size: cover;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.hero-banner-two {
+    width: 20%;
+    background-image: url(../HeroSection/hero-banner-two.jpg);
+    background-size: cover;
+    height: 100%;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 884px) {
+    .hero-banner-one {
+        width: 100%;
+        background-image: url(../HeroSection/hero-banner-one.jpg);
+        background-size: cover;
+        height: 100%;
+        border-radius: 20px;
+    }
+
+    .hero-banner-two {
+        display: none;
+    }
+}
