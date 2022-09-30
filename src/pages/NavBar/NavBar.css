@@ -1,0 +1,9 @@
+header {
+    background-color: var(--primary-brand-white);
+    display: flex;
+    padding: 0.8rem 1.5rem;
+}
+
+.header-item-one img {
+    width: 135px;
+}
