@@ -6,7 +6,7 @@ function Footer() {
     return (
         <div>
             <footer id="footer">
-                <div className="footer-img-div">
+                <div className="footer-item">
                     <img src={footerImg}></img>
                 </div>
                 <div className="footer-item">
@@ -35,6 +35,7 @@ function Footer() {
                     <a>Work with Us</a>
                 </div>
             </footer>
+            <h1 className="creater-info">Handcrafted by DB</h1>
         </div>
     );
 }

@@ -2,11 +2,13 @@ import React from "react";
 import "../Category/Category.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+     faBook,
+    faCar,
     faDoorOpen,
     faFan,
     faGamepad,
+    faKitchenSet,
     faLightbulb,
-    faSearch,
     faShirt,
     faSoccerBall,
     faSpa,
@@ -16,7 +18,6 @@ function Category() {
     return (
         <div>
             <section className="category-section">
-               
                 <div className="category-div">
                     <Link to="footer" spy={true} smooth={true} offset={10} duration={1950} className="category-items">
                         <FontAwesomeIcon className="category-item-icon" icon={faGamepad} />
@@ -45,6 +46,14 @@ function Category() {
                     <div className="category-items">
                         <FontAwesomeIcon className="category-item-icon" icon={faFan} />
                         <h1 className="category-item-head">Appliances</h1>
+                    </div>
+                    <div className="category-items">
+                        <FontAwesomeIcon className="category-item-icon" icon={faCar} />
+                        <h1 className="category-item-head">Travel</h1>
+                    </div>
+                    <div className="category-items">
+                        <FontAwesomeIcon className="category-item-icon" icon={faKitchenSet} />
+                        <h1 className="category-item-head">Kitchen</h1>
                     </div>
                 </div>
             </section>

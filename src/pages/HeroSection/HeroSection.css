@@ -13,11 +13,30 @@
 
 .hero-banner-one {
     width: 100%;
-    background-image: url(https://about.att.com/ecms/dam/snr/2022/september2022/storylevelbanner/iconic_STORY_LEVEL_BANNER_1600x483.jpg);
-    background-size: cover;
     height: 100%;
+    background-image: url(https://about.att.com/ecms/dam/snr/2022/september2022/storylevelbanner/iconic_STORY_LEVEL_BANNER_1600x483.jpg);
     border-radius: 20px;
+    /* animation: bannerChange 15s infinite; */
+    background-size: cover;
 }
+
+/* @keyframes bannerChange {
+    0% {
+        background-image: url(https://about.att.com/ecms/dam/snr/2022/september2022/storylevelbanner/iconic_STORY_LEVEL_BANNER_1600x483.jpg);
+    }
+    25% {
+        background-image: url(https://cdn.appleosophy.com/2022/02/iPhone-14-Pro-Render-1068x464.jpeg);
+    }
+    50% {
+        background-image: url(https://www.apple.com/newsroom/videos/iphone-14-pro-3up/large_2x.mp4);
+    }
+    75% {
+        background-image: url(https://www.techugo.com/blog/wp-content/uploads/2022/09/sub-bannerArtboard-1.jpg);
+    }
+    100% {
+        background-image: url(https://i.ytimg.com/vi/ak7SQ6hqQCA/maxresdefault.jpg);
+    }
+} */
 
 .hero-banner-two {
     width: 20%;
