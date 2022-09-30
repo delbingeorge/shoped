@@ -21,6 +21,10 @@ footer {
     font-size: 1.5rem;
 }
 
+.footer-item a:hover {
+    color: var(--primary-brand-white);
+}
+
 .creater-info {
     font-size: 1.2rem;
     text-align: right;

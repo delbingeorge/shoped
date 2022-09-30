@@ -17,7 +17,6 @@ header {
     width: 135px;
 }
 
-
 .header-item-two {
     width: 30%;
     display: flex;
@@ -25,8 +24,15 @@ header {
     justify-content: space-between;
 }
 
-.nav-item-link {
+.hamburger-link {
+    text-decoration: none;
     font-size: 1.3rem;
+    color: var(--primary-brand-black);
+}
+.nav-item-link {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: var(--primary-brand-black);
 }
 
 .nav-item-link:hover {

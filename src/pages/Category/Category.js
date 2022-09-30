@@ -26,10 +26,10 @@ function Category() {
                         <FontAwesomeIcon className="category-item-icon" icon={faSoccerBall} />
                         <h1 className="category-item-head">Sports</h1>
                     </Link>
-                    <div className="category-items">
+                    <Link to="fashion" spy={true} smooth={true} offset={10} duration={1950} className="category-items">
                         <FontAwesomeIcon className="category-item-icon" icon={faShirt} />
                         <h1 className="category-item-head">Fashion</h1>
-                    </div>
+                    </Link>
                     <div className="category-items">
                         <FontAwesomeIcon className="category-item-icon" icon={faLightbulb} />
                         <h1 className="category-item-head">Electronics</h1>

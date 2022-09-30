@@ -1,4 +1,5 @@
 import React from "react";
+import Fashion from "./Fashion/Fashion";
 
 import Gadgets from "./Gadgets/Gadgets";
 import Sports from "./Sports/Sports";
@@ -7,9 +8,7 @@ function Products() {
         <div>
             <Gadgets />
             <Sports />
-            <Gadgets />
-            <Sports />
-            <Gadgets />
+            <Fashion />
         </div>
     );
 }

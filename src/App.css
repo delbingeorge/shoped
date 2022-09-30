@@ -14,6 +14,7 @@
 :root {
     --primary-brand-color: #faa62c;
     --primary-brand-white: #f4f7ff;
+    --primary-brand-black: #000000;
 }
 
 ::-webkit-scrollbar {
