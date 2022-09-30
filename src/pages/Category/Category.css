@@ -46,7 +46,7 @@
     }
 
     .category-div::-webkit-scrollbar {
-        width: 1px;
+       display: none;
     }
     .category-items {
         padding: 25px 30px;
