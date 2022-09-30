@@ -19,7 +19,8 @@ function NavBar() {
                             <ul id="menu">
                                 <Link to="" className="hamburger-link">
                                     <li>
-                                        <FontAwesomeIcon className="hamburger-link-icon" icon={faUserAlt}></FontAwesomeIcon> Delbin George
+                                        <FontAwesomeIcon className="hamburger-link-icon" icon={faUserAlt}></FontAwesomeIcon>{" "}
+                                        Delbin George
                                     </li>
                                 </Link>
                                 <Link to="" className="hamburger-link">
@@ -34,17 +35,24 @@ function NavBar() {
                                 </Link>
                                 <Link to="" className="hamburger-link">
                                     <li>
-                                        <FontAwesomeIcon className="hamburger-link-icon" icon={faBagShopping}></FontAwesomeIcon>Product
+                                        <FontAwesomeIcon
+                                            className="hamburger-link-icon"
+                                            icon={faBagShopping}
+                                        ></FontAwesomeIcon>
+                                        Product
                                     </li>
                                 </Link>
                                 <Link to="" className="hamburger-link">
                                     <li>
-                                        <FontAwesomeIcon className="hamburger-link-icon" icon={faCartShopping}></FontAwesomeIcon>Cart
+                                        <FontAwesomeIcon
+                                            className="hamburger-link-icon"
+                                            icon={faCartShopping}
+                                        ></FontAwesomeIcon>
+                                        Cart
                                     </li>
                                 </Link>
                             </ul>
                         </div>
-                        {/* <FontAwesomeIcon icon={faBars} /> */}
                     </div>
                     <Link to="mainApp" className="nav-item-link">
                         <img src={shopedLogo} alt="Shoped Online Shopping Logo"></img>

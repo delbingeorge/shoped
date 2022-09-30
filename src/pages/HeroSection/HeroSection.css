@@ -3,7 +3,7 @@
 }
 
 .hero-div-banner {
-    height: 40vh;
+    height: 60vh;
     padding: 0.8rem 1.5rem;
     display: flex;
     flex-direction: row;
@@ -12,8 +12,8 @@
 }
 
 .hero-banner-one {
-    width: 78%;
-    background-image: url(../HeroSection/hero-banner-one.jpg);
+    width: 100%;
+    background-image: url(https://about.att.com/ecms/dam/snr/2022/september2022/storylevelbanner/iconic_STORY_LEVEL_BANNER_1600x483.jpg);
     background-size: cover;
     height: 100%;
     border-radius: 20px;
@@ -28,10 +28,13 @@
 }
 
 @media only screen and (max-width: 884px) {
+    .hero-div-banner {
+        height: 24vh;
+    }
+
     .hero-banner-one {
         width: 100%;
-        background-image: url(../HeroSection/hero-banner-one.jpg);
-        background-size: cover;
+        background-size: contain;
         height: 100%;
         border-radius: 20px;
     }

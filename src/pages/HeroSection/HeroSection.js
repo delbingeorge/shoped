@@ -7,8 +7,10 @@ function HeroSection() {
         <div>
             <section className="hero-section">
                 <div className="hero-div-banner">
-                    <div className="hero-banner-one"></div>
-                    <div className="hero-banner-two"></div>
+                    <div className="hero-banner-one">
+                        {/* <img src={productImage}></img> */}
+                    </div>
+                    {/* <div className="hero-banner-two"></div> */}
                 </div>
             </section>
         </div>

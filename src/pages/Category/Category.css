@@ -38,16 +38,19 @@
     .category-section {
         background-color: var(--primary-brand-white);
         padding: 2rem 1.5rem 3rem 1.5rem;
+        overflow-x: hidden;
     }
 
     .category-div {
+        padding-left: 32rem;
         overflow-y: hidden;
         overflow-x: scroll;
     }
 
     .category-div::-webkit-scrollbar {
-       display: none;
+        display: none;
     }
+
     .category-items {
         padding: 25px 30px;
         margin: 20px;

@@ -2,29 +2,21 @@ import React from "react";
 import "../Category/Category.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-    faAirFreshener,
-    faCar,
     faDoorOpen,
     faFan,
-    faFootball,
     faGamepad,
-    faHeadset,
-    faKitchenSet,
     faLightbulb,
-    faOilCan,
+    faSearch,
     faShirt,
     faSoccerBall,
     faSpa,
-    faTable,
-    faTruckPickup,
-    faTv,
-    faWindowClose,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-scroll";
 function Category() {
     return (
         <div>
             <section className="category-section">
+               
                 <div className="category-div">
                     <Link to="footer" spy={true} smooth={true} offset={10} duration={1950} className="category-items">
                         <FontAwesomeIcon className="category-item-icon" icon={faGamepad} />
@@ -53,10 +45,6 @@ function Category() {
                     <div className="category-items">
                         <FontAwesomeIcon className="category-item-icon" icon={faFan} />
                         <h1 className="category-item-head">Appliances</h1>
-                    </div>
-                    <div className="category-items">
-                        <FontAwesomeIcon className="category-item-icon" icon={faCar} />
-                        <h1 className="category-item-head">Travel</h1>
                     </div>
                 </div>
             </section>
