@@ -5,9 +5,8 @@ import NavBar from "./pages/NavBar/NavBar";
 import HeroSection from "./pages/HeroSection/HeroSection";
 import Category from "./pages/Category/Category";
 import Footer from "./pages/Footer/Footer";
-import Gadgets from "./pages/Product/Gadgets/Gadgets";
 import Faviconfile from "../src/media/favicon.png";
-import Sports from "./pages/Product/Sports/Sports";
+import Products from "./pages/Product/Products";
 function App() {
     return (
         <div className="App" id="mainApp">
@@ -15,8 +14,7 @@ function App() {
             <NavBar />
             <HeroSection />
             <Category />
-            <Gadgets />
-            <Sports />
+            <Products />
             <Footer />
         </div>
     );

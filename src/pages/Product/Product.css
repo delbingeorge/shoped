@@ -83,6 +83,10 @@
         margin-bottom: 20px;
     }
 
+    .product-item img:hover {
+        filter: grayscale(1);
+    }
+
     .see-all-link:hover {
         cursor: pointer;
         color: var(--primary-brand-color);
