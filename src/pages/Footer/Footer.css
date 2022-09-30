@@ -1,4 +1,23 @@
 footer {
-    height: 67.2vh;
     background-color: var(--primary-brand-color);
+    padding: 10rem 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.footer-img-div img {
+    width: 200px;
+}
+
+.footer-item {
+    font-size: 1.2rem;
+    flex-direction: column;
+    display: flex;
+    text-align: left;
+}
+
+.footer-item h1 {
+    font-size: 1.5rem;
 }

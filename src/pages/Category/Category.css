@@ -21,8 +21,10 @@
 }
 
 .category-items:hover {
-    transform: scale(1.06);
+    transform: scale(1.08);
     cursor: pointer;
+    color: black;
+    background-color: var(--primary-brand-color);
 }
 
 .category-item-icon {
