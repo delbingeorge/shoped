@@ -25,7 +25,7 @@ footer {
     color: var(--primary-brand-white);
 }
 
-.creater-info {
+.creator-info {
     font-size: 1.2rem;
     text-align: right;
     background-color: var(--primary-brand-color);
@@ -46,7 +46,7 @@ footer {
         margin-bottom: 2rem;
     }
 
-    .creater-info {
+    .creator-info {
         font-size: 1.2rem;
         text-align: right;
         background-color: var(--primary-brand-color);

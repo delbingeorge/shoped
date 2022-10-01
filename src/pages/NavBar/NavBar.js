@@ -1,11 +1,10 @@
 import React from "react";
-import { Link, Route, Routes } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBagShopping, faBars, faCartShopping, faHome, faShop, faUserAlt } from "@fortawesome/free-solid-svg-icons";
 
 import "../NavBar/NavBar.css";
 import shopedLogo from "../NavBar/shopedLogo.png";
-import Home from "../Home/Home";
+import { Link } from "react-router-dom";
 
 function NavBar() {
     return (
@@ -17,42 +16,26 @@ function NavBar() {
                             <FontAwesomeIcon icon={faBars} />
                             <input type="checkbox" />
 
-                            <ul id="menu">
-                                <Link to="/home" className="hamburger-link">
-                                    <li>
-                                        <FontAwesomeIcon className="hamburger-link-icon" icon={faUserAlt}></FontAwesomeIcon>{" "}
-                                        Delbin George
-                                    </li>
+                            <div id="menu">
+                                <Link to="home" className="hamburger-link">
+                                    <FontAwesomeIcon className="hamburger-link-icon" icon={faUserAlt}></FontAwesomeIcon>{" "}
+                                    Delbin George
                                 </Link>
-                                <Link to="" className="hamburger-link">
-                                    <li>
-                                        <FontAwesomeIcon className="hamburger-link-icon" icon={faHome}></FontAwesomeIcon>Home
-                                    </li>
+                                <Link to="shop" className="hamburger-link">
+                                    <FontAwesomeIcon className="hamburger-link-icon" icon={faHome}></FontAwesomeIcon>Home
                                 </Link>
-                                <Link to="" className="hamburger-link">
-                                    <li>
-                                        <FontAwesomeIcon className="hamburger-link-icon" icon={faShop}></FontAwesomeIcon>Shop
-                                    </li>
+                                <Link to="product" className="hamburger-link">
+                                    <FontAwesomeIcon className="hamburger-link-icon" icon={faShop}></FontAwesomeIcon>Shop
                                 </Link>
-                                <Link to="" className="hamburger-link">
-                                    <li>
-                                        <FontAwesomeIcon
-                                            className="hamburger-link-icon"
-                                            icon={faBagShopping}
-                                        ></FontAwesomeIcon>
-                                        Product
-                                    </li>
+                                <Link to="your-cart" className="hamburger-link">
+                                    <FontAwesomeIcon className="hamburger-link-icon" icon={faBagShopping}></FontAwesomeIcon>
+                                    Product
                                 </Link>
-                                <Link to="" className="hamburger-link">
-                                    <li>
-                                        <FontAwesomeIcon
-                                            className="hamburger-link-icon"
-                                            icon={faCartShopping}
-                                        ></FontAwesomeIcon>
-                                        Cart
-                                    </li>
+                                <Link to="your-profile" className="hamburger-link">
+                                    <FontAwesomeIcon className="hamburger-link-icon" icon={faCartShopping}></FontAwesomeIcon>
+                                    Cart
                                 </Link>
-                            </ul>
+                            </div>
                         </div>
                     </div>
                     <Link to="mainApp" className="nav-item-link">

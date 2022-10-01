@@ -1,0 +1,25 @@
+.btn-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4rem;
+}
+
+.see-all-btn {
+    padding: 10px 25px;
+    border-radius: 6px;
+    border: none;
+    transition: 0.8s;
+    font-size: 1.1rem;
+    background-color: var(--primary-brand-color);
+}
+
+.see-all-btn:hover {
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.see-all-btn-icon {
+    font-size: 1.2rem;
+}

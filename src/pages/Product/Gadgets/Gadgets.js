@@ -1,8 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faIndianRupee } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
-// import { Link } from "react-scroll";
-import { Link, Route, Routes } from "react-router-dom";
 
 import "../../Product/Product.css";
 import smartWatch from "../Gadgets/images/smartWatch.png";
@@ -15,9 +13,6 @@ function Gadgets() {
             <section className="product-section" id="gadgets">
                 <div className="product-cate-title">
                     <h1>Gadgets</h1>
-                    <Link to="moregadgets" className="see-all-link">
-                        See All
-                    </Link>
                 </div>
                 <div className="product-div">
                     <div className="product-item">
@@ -53,9 +48,6 @@ function Gadgets() {
                         </h1>
                     </div>
                 </div>
-                <Routes className="product-div">
-                    <Route path="moregadgets" element={<Gadgets />}></Route>
-                </Routes>
             </section>
         </div>
     );

@@ -1,6 +1,6 @@
 .category-section {
     background-color: var(--primary-brand-white);
-    padding: 4rem 1.5rem 5rem 1.5rem;
+    padding: 1rem 1.5rem 1rem 1.5rem;
 }
 
 .category-div {
@@ -40,15 +40,13 @@
 
 @media only screen and (max-width: 884px) {
     .category-section {
-        background-color: var(--primary-brand-white);
         padding: 2rem 1.5rem 3rem 1.5rem;
         overflow-x: hidden;
     }
 
     .category-div {
-        padding-left: 41.5rem;
         overflow-y: hidden;
-        overflow-x: scroll;
+        flex-wrap: wrap;
     }
 
     .category-div::-webkit-scrollbar {
@@ -56,8 +54,8 @@
     }
 
     .category-items {
-        padding: 25px 30px;
-        margin: 20px;
+        padding: 20px 30px;
+        margin: 10px;
     }
 
     .category-item-icon {

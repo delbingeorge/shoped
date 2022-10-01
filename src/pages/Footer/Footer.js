@@ -35,7 +35,7 @@ function Footer() {
                     <a>Work with Us</a>
                 </div>
             </footer>
-            <h1 className="creater-info">Handcrafted by DB</h1>
+            <h1 className="creator-info">Handcrafted by DB</h1>
         </div>
     );
 }

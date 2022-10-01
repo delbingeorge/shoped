@@ -1,8 +1,5 @@
 import React from "react";
 import "../HeroSection/HeroSection.css";
-// import { Route, Routes } from "react-router-dom";
-// import Home from "../Home/Home";
-// import HeroBannerOne from "../HeroSection/hero-banner-one.jpg";
 
 function HeroSection() {
     return (
