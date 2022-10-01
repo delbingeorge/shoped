@@ -1,7 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBagShopping, faBars, faCartShopping, faHome, faShop, faUserAlt } from "@fortawesome/free-solid-svg-icons";
+import {
+    faBagShopping,
+    faBars,
+    faCartShopping,
+    faHeart,
+    faHeartCircleBolt,
+    faHeartCirclePlus,
+    faHome,
+    faShop,
+    faStar,
+    faUserAlt,
+} from "@fortawesome/free-solid-svg-icons";
 
 import "../NavBar/NavBar.css";
 import shopedLogo from "../NavBar/shopedLogo.png";
@@ -60,16 +71,16 @@ function NavBar() {
                 </div>
                 <div className="header-item-two">
                     <Link to="home" className="nav-item-link" spy={true} smooth={true} offset={10} duration={1950}>
-                        Home
+                        About Us
                     </Link>
                     <Link to="shop" className="nav-item-link" spy={true} smooth={true} offset={10} duration={1950}>
-                        Shop
+                        <FontAwesomeIcon icon={faHeart} /> Wishlist
                     </Link>
                     <Link to="product" className="nav-item-link" spy={true} smooth={true} offset={10} duration={1950}>
-                        Product
+                        <FontAwesomeIcon icon={faStar} /> Plus
                     </Link>
                     <Link to="your-cart" className="nav-item-link" spy={true} smooth={true} offset={10} duration={1950}>
-                        <FontAwesomeIcon icon={faCartShopping} /> Cart
+                        <FontAwesomeIcon icon={faCartShopping} />
                     </Link>
                     <Link to="your-profile" className="nav-item-link" spy={true} smooth={true} offset={10} duration={1950}>
                         <FontAwesomeIcon icon={faUserAlt} />

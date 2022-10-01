@@ -30,30 +30,22 @@ function Category() {
                         <FontAwesomeIcon className="category-item-icon" icon={faShirt} />
                         <h1 className="category-item-head">Fashion</h1>
                     </Link>
-                    <div className="category-items">
+                    <Link to="gadgets" spy={true} smooth={true} offset={10} duration={1950} className="category-items">
                         <FontAwesomeIcon className="category-item-icon" icon={faLightbulb} />
                         <h1 className="category-item-head">Electronics</h1>
-                    </div>
-                    <div className="category-items">
+                    </Link>
+                    <Link to="gadgets" spy={true} smooth={true} offset={10} duration={1950} className="category-items">
                         <FontAwesomeIcon className="category-item-icon" icon={faSpa} />
                         <h1 className="category-item-head">Beauty</h1>
-                    </div>
-                    <div className="category-items">
-                        <FontAwesomeIcon className="category-item-icon" icon={faDoorOpen} />
-                        <h1 className="category-item-head">Furniture</h1>
-                    </div>
-                    <div className="category-items">
+                    </Link>
+                    <Link to="gadgets" spy={true} smooth={true} offset={10} duration={1950} className="category-items">
                         <FontAwesomeIcon className="category-item-icon" icon={faFan} />
                         <h1 className="category-item-head">Appliances</h1>
-                    </div>
-                    <div className="category-items">
+                    </Link>
+                    <Link to="gadgets" spy={true} smooth={true} offset={10} duration={1950} className="category-items">
                         <FontAwesomeIcon className="category-item-icon" icon={faCar} />
                         <h1 className="category-item-head">Travel</h1>
-                    </div>
-                    <div className="category-items">
-                        <FontAwesomeIcon className="category-item-icon" icon={faKitchenSet} />
-                        <h1 className="category-item-head">Kitchen</h1>
-                    </div>
+                    </Link>
                 </div>
             </section>
         </div>

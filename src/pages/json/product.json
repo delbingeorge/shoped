@@ -1,0 +1,52 @@
+{
+    "gadgets": [
+        {
+            "produchTitle": "Apple Watch Series 8",
+            "produchCate": "Gadgets",
+            "produchPrice": 49500.0,
+            "produchImage": "./image/gadgets/smartWatch.png"
+        },
+        {
+            "produchTitle": "Beats Studio 3 Wireless ",
+            "produchCate": "Gadgets",
+            "produchPrice": 22599.0,
+            "produchImage": "./image/gadgets/headPhone.png"
+        },
+        {
+            "produchTitle": "Nintendo Switch - OLED Model",
+            "produchCate": "Gadgets",
+            "produchPrice": 15000.0,
+            "produchImage": "./image/gadgets/switch.png"
+        },
+        {
+            "produchTitle": "Xbox Core Wireless Controller",
+            "produchCate": "Gadgets",
+            "produchPrice": 5500.0,
+            "produchImage": "./image/gadgets/controller.png"
+        },
+        {
+            "produchTitle": "Apple iPhone 14 Pro",
+            "produchCate": "Gadgets",
+            "produchPrice": 122599.0,
+            "produchImage": "./image/gadgets/iphonetwo.png"
+        },
+        {
+            "produchTitle": "AirPods Pro 3rd Gen",
+            "produchCate": "Gadgets",
+            "produchPrice": 19000.0,
+            "produchImage": "./image/gadgets/airpods.png"
+        },
+        {
+            "produchTitle": "Hp Wired On Ear Headphones",
+            "produchCate": "Gadgets",
+            "produchPrice": 9599.0,
+            "produchImage": "./image/gadgets/headphoneone.png"
+        },
+        {
+            "produchTitle": "Alienware Gaming Laptops",
+            "produchCate": "Gadgets",
+            "produchPrice": 315000.0,
+            "produchImage": "./image/gadgets/laptop.png"
+        }
+    ]
+}
