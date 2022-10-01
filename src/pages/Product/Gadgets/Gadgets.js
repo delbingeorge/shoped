@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faIndianRupee } from "@fortawesome/free-solid-svg-icons";
+import { faPlusSquare, faIndianRupee } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
 
 import "../../Product/Product.css";
@@ -23,7 +23,7 @@ function Gadgets() {
                             49500.00
                         </h1>
                     </div>
-                    <div className="product-item">
+                    <div className="product-item special-offer">
                         <img src={headPhone} alt="Beats Premium Sounds"></img>
                         <h1 className="product-title">Beats Premium Sounds</h1>
                         <h1 className="product-price">
@@ -47,6 +47,11 @@ function Gadgets() {
                             4590.00
                         </h1>
                     </div>
+                </div>
+                <div className="btn-div">
+                    <button className="see-all-btn">
+                        <FontAwesomeIcon icon={faPlusSquare} className="see-all-btn-icon" /> See More
+                    </button>
                 </div>
             </section>
         </div>

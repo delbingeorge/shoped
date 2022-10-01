@@ -1,10 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBagShopping, faBars, faCartShopping, faHome, faShop, faUserAlt } from "@fortawesome/free-solid-svg-icons";
 
 import "../NavBar/NavBar.css";
 import shopedLogo from "../NavBar/shopedLogo.png";
-import { Link } from "react-router-dom";
 
 function NavBar() {
     return (
@@ -17,7 +17,7 @@ function NavBar() {
                             <input type="checkbox" />
 
                             <ul id="menu">
-                                <Link to="" className="hamburger-link">
+                                <Link to="/" className="hamburger-link">
                                     <li>
                                         <FontAwesomeIcon className="hamburger-link-icon" icon={faUserAlt}></FontAwesomeIcon>{" "}
                                         Delbin George

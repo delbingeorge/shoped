@@ -1,25 +1,23 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faIndianRupee } from "@fortawesome/free-solid-svg-icons";
 import React from "react";
+import { Link } from "react-scroll";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faIndianRupee, faPlusSquare } from "@fortawesome/free-solid-svg-icons";
 
 import "../../Product/Product.css";
 import bootsImg from "../Sports/images/bootsImg.png";
 import jerseyImg from "../Sports/images/jerseyImg.png";
 import footballImg from "../Sports/images/footballImg.png";
 import shoeImg from "../Sports/images/shoeImg.png";
-import { Link } from "react-scroll";
+
 function Sports() {
     return (
         <div>
             <section className="product-section" id="sports">
                 <div className="product-cate-title">
                     <h1>Sports & Workouts</h1>
-                    <Link to="" className="see-all-link">
-                        See All
-                    </Link>
                 </div>
-                <div className="product-div">
-                    <div className="product-item">
+                <div className="product-div ">
+                    <div className="product-item special-offer ">
                         <img src={bootsImg} alt="Mercurial Football Shoes"></img>
                         <h1 className="product-title">Mercurial Football Shoes</h1>
                         <h1 className="product-price">
@@ -51,6 +49,11 @@ function Sports() {
                             2995.00
                         </h1>
                     </div>
+                </div>
+                <div className="btn-div">
+                    <button className="see-all-btn">
+                        <FontAwesomeIcon icon={faPlusSquare} className="see-all-btn-icon" /> See More
+                    </button>
                 </div>
             </section>
         </div>
