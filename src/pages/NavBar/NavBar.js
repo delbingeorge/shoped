@@ -16,26 +16,42 @@ function NavBar() {
                             <FontAwesomeIcon icon={faBars} />
                             <input type="checkbox" />
 
-                            <div id="menu">
-                                <Link to="home" className="hamburger-link">
-                                    <FontAwesomeIcon className="hamburger-link-icon" icon={faUserAlt}></FontAwesomeIcon>{" "}
-                                    Delbin George
+                            <ul id="menu">
+                                <Link to="" className="hamburger-link">
+                                    <li>
+                                        <FontAwesomeIcon className="hamburger-link-icon" icon={faUserAlt}></FontAwesomeIcon>{" "}
+                                        Delbin George
+                                    </li>
                                 </Link>
-                                <Link to="shop" className="hamburger-link">
-                                    <FontAwesomeIcon className="hamburger-link-icon" icon={faHome}></FontAwesomeIcon>Home
+                                <Link to="" className="hamburger-link">
+                                    <li>
+                                        <FontAwesomeIcon className="hamburger-link-icon" icon={faHome}></FontAwesomeIcon>Home
+                                    </li>
                                 </Link>
-                                <Link to="product" className="hamburger-link">
-                                    <FontAwesomeIcon className="hamburger-link-icon" icon={faShop}></FontAwesomeIcon>Shop
+                                <Link to="" className="hamburger-link">
+                                    <li>
+                                        <FontAwesomeIcon className="hamburger-link-icon" icon={faShop}></FontAwesomeIcon>Shop
+                                    </li>
                                 </Link>
-                                <Link to="your-cart" className="hamburger-link">
-                                    <FontAwesomeIcon className="hamburger-link-icon" icon={faBagShopping}></FontAwesomeIcon>
-                                    Product
+                                <Link to="" className="hamburger-link">
+                                    <li>
+                                        <FontAwesomeIcon
+                                            className="hamburger-link-icon"
+                                            icon={faBagShopping}
+                                        ></FontAwesomeIcon>
+                                        Product
+                                    </li>
                                 </Link>
-                                <Link to="your-profile" className="hamburger-link">
-                                    <FontAwesomeIcon className="hamburger-link-icon" icon={faCartShopping}></FontAwesomeIcon>
-                                    Cart
+                                <Link to="" className="hamburger-link">
+                                    <li>
+                                        <FontAwesomeIcon
+                                            className="hamburger-link-icon"
+                                            icon={faCartShopping}
+                                        ></FontAwesomeIcon>
+                                        Cart
+                                    </li>
                                 </Link>
-                            </div>
+                            </ul>
                         </div>
                     </div>
                     <Link to="mainApp" className="nav-item-link">
