@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faIndianRupee, faArrowDown, faArrowUp } from "@fortawesome/free-solid-svg-icons";
+import { faIndianRupee, faArrowDown, faArrowUp, faAdd, faHeart, faCartPlus } from "@fortawesome/free-solid-svg-icons";
 import React, { useState } from "react";
 import axios from "axios";
 
@@ -35,6 +35,14 @@ function Gadgets() {
                 </div>
                 <div className="product-div">
                     <div className="product-item">
+                        <div className="product-hover-action">
+                            <button className="add-to-cart">
+                                <FontAwesomeIcon icon={faCartPlus} />
+                            </button>
+                            <button className="add-to-wishlist">
+                                <FontAwesomeIcon icon={faHeart} />
+                            </button>
+                        </div>
                         <img src={smartWatch} alt="Nike Basketball Shoes"></img>
                         <h1 className="product-title">Apple Watch Series 8</h1>
                         <h1 className="product-price">
@@ -43,6 +51,14 @@ function Gadgets() {
                         </h1>
                     </div>
                     <div className="product-item special-offer">
+                        <div className="product-hover-action">
+                            <button className="add-to-cart">
+                                <FontAwesomeIcon icon={faCartPlus} />
+                            </button>
+                            <button className="add-to-wishlist">
+                                <FontAwesomeIcon icon={faHeart} />
+                            </button>
+                        </div>
                         <img src={headPhone} alt="Beats Premium Sounds"></img>
                         <h1 className="product-title">Beats Premium Sounds</h1>
                         <h1 className="product-price">
@@ -51,6 +67,14 @@ function Gadgets() {
                         </h1>
                     </div>
                     <div className="product-item">
+                        <div className="product-hover-action">
+                            <button className="add-to-cart">
+                                <FontAwesomeIcon icon={faCartPlus} />
+                            </button>
+                            <button className="add-to-wishlist">
+                                <FontAwesomeIcon icon={faHeart} />
+                            </button>
+                        </div>
                         <img src={switchN} alt="Nintendo Switch Pro"></img>
                         <h1 className="product-title">Nintendo Switch Pro Series</h1>
                         <h1 className="product-price">
@@ -59,6 +83,14 @@ function Gadgets() {
                         </h1>
                     </div>
                     <div className="product-item">
+                        <div className="product-hover-action">
+                            <button className="add-to-cart">
+                                <FontAwesomeIcon icon={faCartPlus} />
+                            </button>
+                            <button className="add-to-wishlist">
+                                <FontAwesomeIcon icon={faHeart} />
+                            </button>
+                        </div>
                         <img src={controller} alt="Nike Basketball Shoes"></img>
                         <h1 className="product-title">Controller for Xbox Series</h1>
                         <h1 className="product-price">
@@ -73,6 +105,14 @@ function Gadgets() {
                         {value.map((val) => {
                             return (
                                 <div className="product-item">
+                                    <div className="product-hover-action">
+                                        <button className="add-to-cart">
+                                            <FontAwesomeIcon icon={faCartPlus} />
+                                        </button>
+                                        <button className="add-to-wishlist">
+                                            <FontAwesomeIcon icon={faHeart} />
+                                        </button>
+                                    </div>
                                     <img src={val.image} alt={val.title}></img>
                                     <h1 className="product-title">{val.title}</h1>
                                     <h1 className="product-price">
