@@ -9,7 +9,7 @@
     box-sizing: border-box;
     font-family: "Coolvetica";
     font-weight: 100;
-    user-select: none;
+    /* user-select: none; */
 }
 
 :root {

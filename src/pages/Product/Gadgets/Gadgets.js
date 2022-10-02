@@ -109,7 +109,7 @@ function Gadgets() {
                     <div className="product-div">
                         {value.map((val) => {
                             return (
-                                <div className="product-item">
+                                <div className="product-item" id="iphone">
                                     <img src={val.image} alt={val.title}></img>
                                     <h1 className="product-title">{val.title}</h1>
                                     <h1 className="product-price">
