@@ -41,6 +41,14 @@ function Gadgets() {
                             <FontAwesomeIcon icon={faIndianRupee} />
                             49500.00
                         </h1>
+                        <div className="item-action-btn">
+                            <button className="add-cart-btn">
+                                <FontAwesomeIcon icon={faCartPlus} /> Add to Cart
+                            </button>
+                            <button className="add-fav-btn">
+                                <FontAwesomeIcon icon={faHeart} />
+                            </button>
+                        </div>
                     </div>
                     <div className="product-item special-offer">
                         <img src={headPhone} alt="Beats Premium Sounds"></img>
@@ -49,6 +57,14 @@ function Gadgets() {
                             <FontAwesomeIcon icon={faIndianRupee} />
                             25900.00
                         </h1>
+                        <div className="item-action-btn">
+                            <button className="add-cart-btn">
+                                <FontAwesomeIcon icon={faCartPlus} /> Add to Cart
+                            </button>
+                            <button className="add-fav-btn">
+                                <FontAwesomeIcon icon={faHeart} />
+                            </button>
+                        </div>
                     </div>
                     <div className="product-item">
                         <img src={switchN} alt="Nintendo Switch Pro"></img>
@@ -57,6 +73,14 @@ function Gadgets() {
                             <FontAwesomeIcon icon={faIndianRupee} />
                             14500.00
                         </h1>
+                        <div className="item-action-btn">
+                            <button className="add-cart-btn">
+                                <FontAwesomeIcon icon={faCartPlus} /> Add to Cart
+                            </button>
+                            <button className="add-fav-btn">
+                                <FontAwesomeIcon icon={faHeart} />
+                            </button>
+                        </div>
                     </div>
                     <div className="product-item">
                         <img src={controller} alt="Nike Basketball Shoes"></img>
@@ -65,6 +89,14 @@ function Gadgets() {
                             <FontAwesomeIcon icon={faIndianRupee} />
                             4590.00
                         </h1>
+                        <div className="item-action-btn">
+                            <button className="add-cart-btn">
+                                <FontAwesomeIcon icon={faCartPlus} /> Add to Cart
+                            </button>
+                            <button className="add-fav-btn">
+                                <FontAwesomeIcon icon={faHeart} />
+                            </button>
+                        </div>
                     </div>
                 </div>
 
@@ -79,6 +111,14 @@ function Gadgets() {
                                         <FontAwesomeIcon icon={faIndianRupee} />
                                         {val.price}
                                     </h1>
+                                    <div className="item-action-btn">
+                                        <button className="add-cart-btn">
+                                            <FontAwesomeIcon icon={faCartPlus} /> Add to Cart
+                                        </button>
+                                        <button className="add-fav-btn">
+                                            <FontAwesomeIcon icon={faHeart} />
+                                        </button>
+                                    </div>
                                 </div>
                             );
                         })}
