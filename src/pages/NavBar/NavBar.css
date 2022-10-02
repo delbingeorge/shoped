@@ -45,7 +45,7 @@ header {
     header {
         background-color: var(--primary-brand-white);
         display: flex;
-        padding: 0.8rem 1.5rem;
+        padding: 1rem 1.5rem 0.4rem 1.5rem;
         justify-content: space-between;
     }
 

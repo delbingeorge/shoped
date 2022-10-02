@@ -48,12 +48,14 @@
 }
 
 @media only screen and (max-width: 884px) {
+    
     .hero-div-banner {
-        height: 70vh;
+        height: 90vh;
     }
 
     .hero-banner-one {
         width: 100%;
+        padding: 0;
         background-size: cover;
         height: 100%;
         border-radius: 20px;
