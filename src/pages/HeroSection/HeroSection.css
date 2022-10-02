@@ -45,9 +45,10 @@
     border-radius: 20px;
 }
 
+
 @media only screen and (max-width: 884px) {
     .hero-div-banner {
-        height: 24vh;
+        height: 70vh;
     }
 
     .hero-banner-one {

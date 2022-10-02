@@ -1,20 +1,10 @@
 import React from "react";
-import { Link, Route, Routes } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faBagShopping,
-    faBars,
-    faCartShopping,
-    faHeart,
-    faHome,
-    faObjectGroup,
-    faTags,
-} from "@fortawesome/free-solid-svg-icons";
+import { faBagShopping, faBars, faCartShopping, faHeart, faHome } from "@fortawesome/free-solid-svg-icons";
 
 import "../NavBar/NavBar.css";
 import shopedLogo from "../NavBar/shopedLogo.png";
-import Cart from "../Cart/Cart";
-import Fav from "../Fav/Fav";
 
 function NavBar() {
     return (
@@ -36,6 +26,15 @@ function NavBar() {
                                 <Link to="" className="hamburger-link">
                                     <li>
                                         <FontAwesomeIcon className="hamburger-link-icon" icon={faHome}></FontAwesomeIcon>Home
+                                    </li>
+                                </Link>
+                                <Link to="products" className="hamburger-link">
+                                    <li>
+                                        <FontAwesomeIcon
+                                            className="hamburger-link-icon"
+                                            icon={faBagShopping}
+                                        ></FontAwesomeIcon>
+                                        Product
                                     </li>
                                 </Link>
                                 <Link to="your-fav" className="hamburger-link">
@@ -68,16 +67,6 @@ function NavBar() {
                     </Link>
                 </div>
                 <div className="header-item-two">
-                    <a
-                        href="https://delbin.netlify.app"
-                        className="nav-item-link"
-                        spy={true}
-                        smooth={true}
-                        offset={10}
-                        duration={1950}
-                    >
-                        About Me
-                    </a>
                     <Link to="" className="nav-item-link" spy={true} smooth={true} offset={10} duration={1950}>
                         <FontAwesomeIcon icon={faHome} /> Home
                     </Link>
@@ -90,6 +79,9 @@ function NavBar() {
                     <Link to="your-cart" className="nav-item-link" spy={true} smooth={true} offset={10} duration={1950}>
                         <FontAwesomeIcon icon={faCartShopping} /> Cart
                     </Link>
+                    <a href="https://delbin.netlify.app" className="nav-item-link">
+                        About Me
+                    </a>
                     {/* <Link to="your-profile" className="nav-item-link" spy={true} smooth={true} offset={10} duration={1950}>
                         <FontAwesomeIcon icon={faUserAlt} />
                     </Link> */}

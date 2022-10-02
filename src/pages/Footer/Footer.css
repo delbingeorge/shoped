@@ -28,6 +28,8 @@ footer {
 .creator-info {
     font-size: 1.2rem;
     text-align: right;
+    padding-bottom: 20px;
+    padding-right: 40px;
     background-color: var(--primary-brand-color);
 }
 
