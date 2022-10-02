@@ -6,6 +6,7 @@ import { faBagShopping, faBars, faCartShopping, faHeart, faHome, faShop, faUserA
 import "../NavBar/NavBar.css";
 import shopedLogo from "../NavBar/shopedLogo.png";
 import Cart from "../Cart/Cart";
+import Fav from "../Fav/Fav";
 
 function NavBar() {
     return (
@@ -29,21 +30,14 @@ function NavBar() {
                                         <FontAwesomeIcon className="hamburger-link-icon" icon={faHome}></FontAwesomeIcon>Home
                                     </li>
                                 </Link>
-                                <Link to="" className="hamburger-link">
+                                <Link to="your-fav" className="hamburger-link">
                                     <li>
-                                        <FontAwesomeIcon className="hamburger-link-icon" icon={faShop}></FontAwesomeIcon>Shop
+                                        <FontAwesomeIcon className="hamburger-link-icon" icon={faHeart}></FontAwesomeIcon>
+                                        Wishlist
                                     </li>
                                 </Link>
-                                <Link to="" className="hamburger-link">
-                                    <li>
-                                        <FontAwesomeIcon
-                                            className="hamburger-link-icon"
-                                            icon={faBagShopping}
-                                        ></FontAwesomeIcon>
-                                        Product
-                                    </li>
-                                </Link>
-                                <Link to="" className="hamburger-link">
+
+                                <Link to="your-cart" className="hamburger-link">
                                     <li>
                                         <FontAwesomeIcon
                                             className="hamburger-link-icon"
@@ -55,15 +49,15 @@ function NavBar() {
                             </ul>
                         </div>
                     </div>
-                    <Link to="mainApp" className="nav-item-link">
+                    <Link to="" className="nav-item-link">
                         <img src={shopedLogo} alt="Shoped Online Shopping Logo"></img>
                     </Link>
                 </div>
                 <div className="header-item-two">
-                    <Link to="home" className="nav-item-link" spy={true} smooth={true} offset={10} duration={1950}>
+                    <Link to="" className="nav-item-link" spy={true} smooth={true} offset={10} duration={1950}>
                         Home
                     </Link>
-                    <Link to="shop" className="nav-item-link" spy={true} smooth={true} offset={10} duration={1950}>
+                    <Link to="your-fav" className="nav-item-link" spy={true} smooth={true} offset={10} duration={1950}>
                         <FontAwesomeIcon icon={faHeart} /> Wishlist
                     </Link>
                     <Link to="your-cart" className="nav-item-link" spy={true} smooth={true} offset={10} duration={1950}>
@@ -76,6 +70,7 @@ function NavBar() {
             </header>
             <Routes>
                 <Route path="your-cart" element={<Cart />}></Route>
+                <Route path="your-fav" element={<Fav />}></Route>
             </Routes>
         </div>
     );
