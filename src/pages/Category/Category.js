@@ -3,10 +3,11 @@ import "../Category/Category.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGamepad, faShirt, faSoccerBall, faSpa } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-scroll";
+import Products from "../Product/Products";
 function Category() {
     return (
         <div>
-            <section className="category-section">
+            <section className="category-section" id="category">
                 <div className="category-div">
                     <Link to="gadgets" spy={true} smooth={true} offset={10} duration={1950} className="category-items">
                         <FontAwesomeIcon className="category-item-icon" icon={faGamepad} />
@@ -38,6 +39,7 @@ function Category() {
                     </Link> */}
                 </div>
             </section>
+            <Products />
         </div>
     );
 }

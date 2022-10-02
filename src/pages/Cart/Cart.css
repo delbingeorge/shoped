@@ -45,7 +45,7 @@
 
 .remove-cart-btn:hover {
     cursor: pointer;
-    animation: shakeEffect 1s infinite;
+    animation: shakeEffect 0.5s;
 }
 
 .cart-checkout-div {

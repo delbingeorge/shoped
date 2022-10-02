@@ -1,4 +1,5 @@
 import React from "react";
+import Category from "../Category/Category";
 import "../HeroSection/HeroSection.css";
 
 function HeroSection() {
@@ -9,6 +10,8 @@ function HeroSection() {
                     <div className="hero-banner-one"></div>
                 </div>
             </section>
+
+            <Category />
         </div>
     );
 }

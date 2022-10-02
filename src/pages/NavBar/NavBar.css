@@ -10,7 +10,7 @@ header {
 }
 
 .header-item-one {
-    width: 70%;
+    width: 60%;
 }
 
 .header-item-one img {
@@ -18,7 +18,7 @@ header {
 }
 
 .header-item-two {
-    width: 30%;
+    width: 40%;
     display: flex;
     align-items: center;
     justify-content: space-between;

@@ -1,7 +1,15 @@
 import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBagShopping, faBars, faCartShopping, faHeart, faHome } from "@fortawesome/free-solid-svg-icons";
+import {
+    faBagShopping,
+    faBars,
+    faCartShopping,
+    faHeart,
+    faHome,
+    faObjectGroup,
+    faTags,
+} from "@fortawesome/free-solid-svg-icons";
 
 import "../NavBar/NavBar.css";
 import shopedLogo from "../NavBar/shopedLogo.png";
@@ -70,6 +78,12 @@ function NavBar() {
                     >
                         About Me
                     </a>
+                    <Link to="" className="nav-item-link" spy={true} smooth={true} offset={10} duration={1950}>
+                        <FontAwesomeIcon icon={faHome} /> Home
+                    </Link>
+                    <Link to="products" className="nav-item-link" spy={true} smooth={true} offset={10} duration={1950}>
+                        <FontAwesomeIcon icon={faBagShopping} /> Product
+                    </Link>
                     <Link to="your-fav" className="nav-item-link" spy={true} smooth={true} offset={10} duration={1950}>
                         <FontAwesomeIcon icon={faHeart} /> Wishlist
                     </Link>
@@ -81,10 +95,6 @@ function NavBar() {
                     </Link> */}
                 </div>
             </header>
-            <Routes>
-                <Route path="your-cart" element={<Cart />}></Route>
-                <Route path="your-fav" element={<Fav />}></Route>
-            </Routes>
         </div>
     );
 }
