@@ -1,7 +1,7 @@
 import React from "react";
 import "../Category/Category.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCar, faFan, faGamepad, faLightbulb, faShirt, faSoccerBall, faSpa } from "@fortawesome/free-solid-svg-icons";
+import { faGamepad, faShirt, faSoccerBall, faSpa } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-scroll";
 function Category() {
     return (
@@ -24,7 +24,7 @@ function Category() {
                         <FontAwesomeIcon className="category-item-icon" icon={faLightbulb} />
                         <h1 className="category-item-head">Electronics</h1>
                     </Link> */}
-                    <Link to="gadgets" spy={true} smooth={true} offset={10} duration={1950} className="category-items">
+                    <Link to="beauty" spy={true} smooth={true} offset={10} duration={1950} className="category-items">
                         <FontAwesomeIcon className="category-item-icon" icon={faSpa} />
                         <h1 className="category-item-head">Beauty</h1>
                     </Link>

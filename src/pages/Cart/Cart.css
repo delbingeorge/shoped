@@ -43,6 +43,11 @@
     transition: 0.5;
 }
 
+.remove-cart-btn:hover {
+    cursor: pointer;
+    animation: shakeEffect 1s infinite;
+}
+
 .cart-checkout-div {
     width: 100%;
     padding: 5rem;

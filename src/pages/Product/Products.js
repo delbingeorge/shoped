@@ -1,4 +1,5 @@
 import React from "react";
+import Beauty from "./Beauty/Beauty";
 import Fashion from "./Fashion/Fashion";
 
 import Gadgets from "./Gadgets/Gadgets";
@@ -10,6 +11,7 @@ function Products() {
             <Gadgets />
             <Sports />
             <Fashion />
+            <Beauty />
             {/* <Electronics /> */}
         </div>
     );

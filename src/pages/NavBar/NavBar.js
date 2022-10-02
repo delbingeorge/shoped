@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBagShopping, faBars, faCartShopping, faHeart, faHome, faShop, faUserAlt } from "@fortawesome/free-solid-svg-icons";
+import { faBagShopping, faBars, faCartShopping, faHeart, faHome } from "@fortawesome/free-solid-svg-icons";
 
 import "../NavBar/NavBar.css";
 import shopedLogo from "../NavBar/shopedLogo.png";
@@ -19,12 +19,12 @@ function NavBar() {
                             <input type="checkbox" />
 
                             <ul id="menu">
-                                <Link to="/" className="hamburger-link">
+                                {/* <Link to="/" className="hamburger-link">
                                     <li>
                                         <FontAwesomeIcon className="hamburger-link-icon" icon={faUserAlt}></FontAwesomeIcon>{" "}
                                         Delbin George
                                     </li>
-                                </Link>
+                                </Link> */}
                                 <Link to="" className="hamburger-link">
                                     <li>
                                         <FontAwesomeIcon className="hamburger-link-icon" icon={faHome}></FontAwesomeIcon>Home
@@ -36,16 +36,22 @@ function NavBar() {
                                         Wishlist
                                     </li>
                                 </Link>
-
                                 <Link to="your-cart" className="hamburger-link">
                                     <li>
                                         <FontAwesomeIcon
                                             className="hamburger-link-icon"
-                                            icon={faCartShopping}
+                                            icon={faBagShopping}
                                         ></FontAwesomeIcon>
                                         Cart
                                     </li>
                                 </Link>
+
+                                <a href="https://delbin.netlify.app" className="hamburger-link">
+                                    <li>
+                                        <FontAwesomeIcon className="hamburger-link-icon"></FontAwesomeIcon>
+                                        About Me
+                                    </li>
+                                </a>
                             </ul>
                         </div>
                     </div>
@@ -54,18 +60,25 @@ function NavBar() {
                     </Link>
                 </div>
                 <div className="header-item-two">
-                    <Link to="" className="nav-item-link" spy={true} smooth={true} offset={10} duration={1950}>
-                        Home
-                    </Link>
+                    <a
+                        href="https://delbin.netlify.app"
+                        className="nav-item-link"
+                        spy={true}
+                        smooth={true}
+                        offset={10}
+                        duration={1950}
+                    >
+                        About Me
+                    </a>
                     <Link to="your-fav" className="nav-item-link" spy={true} smooth={true} offset={10} duration={1950}>
                         <FontAwesomeIcon icon={faHeart} /> Wishlist
                     </Link>
                     <Link to="your-cart" className="nav-item-link" spy={true} smooth={true} offset={10} duration={1950}>
                         <FontAwesomeIcon icon={faCartShopping} /> Cart
                     </Link>
-                    <Link to="your-profile" className="nav-item-link" spy={true} smooth={true} offset={10} duration={1950}>
+                    {/* <Link to="your-profile" className="nav-item-link" spy={true} smooth={true} offset={10} duration={1950}>
                         <FontAwesomeIcon icon={faUserAlt} />
-                    </Link>
+                    </Link> */}
                 </div>
             </header>
             <Routes>

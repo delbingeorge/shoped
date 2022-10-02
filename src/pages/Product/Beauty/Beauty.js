@@ -2,12 +2,11 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp, faArrowDown, faIndianRupee } from "@fortawesome/free-solid-svg-icons";
 
-
 import cosmicMerch from "./images/cosmicMerch.jpg";
 import tshirtMerch from "./images/tshirtMerch.png";
 import hoodyImg from "./images/hoodyImg.png";
 import redHoody from "./images/redHoody.png";
-function Fashion() {
+function Beauty() {
     const [show, setShow] = useState(false);
     const [buttonText, setButtonText] = useState("View More");
     const [buttonIcon, setButtonIcon] = useState(faArrowDown);
@@ -22,9 +21,9 @@ function Fashion() {
     }
     return (
         <div>
-            <section className="product-section" id="fashion">
+            <section className="product-section" id="beauty">
                 <div className="product-cate-title">
-                    <h1>Fashion & Trends</h1>
+                    <h1>Beauty & Cosmetics</h1>
                 </div>
                 <div className="product-div">
                     <div className="product-item ">
@@ -113,4 +112,4 @@ function Fashion() {
     );
 }
 
-export default Fashion;
+export default Beauty;
