@@ -36,49 +36,6 @@
     transform: scale(1.02);
 }
 
-.product-hover-action {
-    background-color: var(--primary-brand-color);
-    padding: 2px 135px;
-    border-radius: 0 0 0 30%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transition: 5s ease-in-out;
-}
-
-.add-to-wishlist {
-    font-size: 2rem;
-    background-color: rgba(240, 248, 255, 0);
-    opacity: 0;
-    border: none;
-    color: rgb(255, 0, 0);
-    margin-top: 2px;
-    margin-right: 10px;
-}
-
-.add-to-cart {
-    font-size: 1.8rem;
-    background-color: rgba(240, 248, 255, 0);
-    opacity: 0;
-    border: none;
-
-    margin-right: 60px;
-    margin-top: 5px;
-    color: rgb(0, 0, 0);
-}
-
-.product-item:hover::after,
-.add-to-cart,
-.add-to-wishlist {
-    cursor: pointer;
-    padding-top: 5px;
-    padding-right: 5px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    opacity: 1;
-}
-
 .product-item img {
     width: 195px;
     height: 200px;

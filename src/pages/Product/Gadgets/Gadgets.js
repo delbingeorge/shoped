@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faIndianRupee, faArrowDown, faArrowUp,faCartPlus,faHeart} from "@fortawesome/free-solid-svg-icons";
+import { faIndianRupee, faArrowDown, faArrowUp, faCartPlus, faHeart } from "@fortawesome/free-solid-svg-icons";
 import React, { useState } from "react";
 import axios from "axios";
 
@@ -14,7 +14,7 @@ function Gadgets() {
     const [buttonIcon, setButtonIcon] = useState(faArrowDown);
     const [value, setValue] = useState([]);
     const fetchData = () => {
-        axios.get("https://delbingeorge.github.io/shopedapi/product.json").then((res) => {
+        axios.get("https://delbingeorge.github.io/shopedapi/gadgets.json").then((res) => {
             setValue(res.data);
         });
     };
@@ -35,14 +35,6 @@ function Gadgets() {
                 </div>
                 <div className="product-div">
                     <div className="product-item">
-                        {/* <div className="product-hover-action">
-                            <button className="add-to-cart">
-                                <FontAwesomeIcon icon={faCartPlus} />
-                            </button>
-                            <button className="add-to-wishlist">
-                                <FontAwesomeIcon icon={faHeart} />
-                            </button>
-                        </div> */}
                         <img src={smartWatch} alt="Nike Basketball Shoes"></img>
                         <h1 className="product-title">Apple Watch Series 8</h1>
                         <h1 className="product-price">
