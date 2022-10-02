@@ -5,7 +5,7 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import NavBar from "./pages/NavBar/NavBar";
 import HeroSection from "./pages/HeroSection/HeroSection";
-import Category from "./pages/Category/Category";
+// import Category from "./pages/Category/Category";
 import Footer from "./pages/Footer/Footer";
 import Faviconfile from "../src/media/favicon.png";
 import Products from "./pages/Product/Products";

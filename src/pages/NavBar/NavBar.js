@@ -11,7 +11,7 @@ function NavBar() {
         <div>
             <header id="header">
                 <div className="header-item-one">
-                    <div className="hamburge-menu">
+                    <div className="hamburger-menu">
                         <div id="menuToggle">
                             <FontAwesomeIcon icon={faBars} />
                             <input type="checkbox" />

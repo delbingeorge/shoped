@@ -45,6 +45,8 @@
 
 .remove-cart-btn:hover {
     cursor: pointer;
+    color: var(--primary-brand-white);
+    background-color: rgb(252, 20, 20);
     animation: shakeEffect 0.5s;
 }
 
@@ -72,7 +74,6 @@
 
 .cart-checkout-btn:hover {
     cursor: pointer;
-    color: var(--primary-brand-white);
 }
 
 @media only screen and (max-width: 884px) {
@@ -99,11 +100,33 @@
         margin-bottom: 20px;
     }
 
-    .remove-cart-btn {
-        background-color: var(--primary-brand-color);
-        padding: 10px 15px;
-        border: none;
+    .cart-checkout-div {
+        width: 100%;
+        padding: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .cart-checkout-div h4 {
+        padding: 0;
+        padding-bottom: 1rem;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .cart-checkout-btn {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        font-size: 1rem;
+        padding: 10px 75px;
         border-radius: 5px;
-        transition: 0.5;
+        transition: 0.5s;
+        border: none;
+        background-color: var(--primary-brand-color);
     }
 }

@@ -9,14 +9,16 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+    overflow: hidden;
+    /* border-radius: 20px; */
 }
 
 .hero-banner-one {
     width: 100%;
     height: 100%;
-    border-radius: 20px;
-    animation: bannerChange 25s infinite;
-    background-size: cover;
+    /* animation: bannerChange 25s infinite; */
+    /* background-size: cover; */
+    transform: scale(1.96) translateY(15px);
 }
 
 @keyframes bannerChange {
@@ -45,7 +47,6 @@
     border-radius: 20px;
 }
 
-
 @media only screen and (max-width: 884px) {
     .hero-div-banner {
         height: 70vh;
@@ -56,6 +57,7 @@
         background-size: cover;
         height: 100%;
         border-radius: 20px;
+        transform: scale(4) translateY(15px);
     }
 
     .hero-banner-two {
