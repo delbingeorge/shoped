@@ -67,22 +67,22 @@ function NavBar() {
                     </Link>
                 </div>
                 <div className="header-item-two">
-                    <Link to="" className="nav-item-link" spy={true} smooth={true} offset={10} duration={1950}>
+                    <Link to="" className="nav-item-link" spy="true" smooth="true" offset={10} duration={1950}>
                         <FontAwesomeIcon icon={faHome} /> Home
                     </Link>
-                    <Link to="products" className="nav-item-link" spy={true} smooth={true} offset={10} duration={1950}>
+                    <Link to="products" className="nav-item-link" spy="true" smooth="true" offset={10} duration={1950}>
                         <FontAwesomeIcon icon={faBagShopping} /> Product
                     </Link>
-                    <Link to="your-fav" className="nav-item-link" spy={true} smooth={true} offset={10} duration={1950}>
+                    <Link to="your-fav" className="nav-item-link" spy="true" smooth="true" offset={10} duration={1950}>
                         <FontAwesomeIcon icon={faHeart} /> Wishlist
                     </Link>
-                    <Link to="your-cart" className="nav-item-link" spy={true} smooth={true} offset={10} duration={1950}>
+                    <Link to="your-cart" className="nav-item-link" spy="true" smooth="true" offset={10} duration={1950}>
                         <FontAwesomeIcon icon={faCartShopping} /> Cart
                     </Link>
                     <a href="https://delbin.netlify.app" className="nav-item-link">
                         About Me
                     </a>
-                    {/* <Link to="your-profile" className="nav-item-link" spy={true} smooth={true} offset={10} duration={1950}>
+                    {/* <Link to="your-profile" className="nav-item-link" spy="true" smooth="true" offset={10} duration={1950}>
                         <FontAwesomeIcon icon={faUserAlt} />
                     </Link> */}
                 </div>

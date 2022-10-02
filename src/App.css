@@ -3,6 +3,11 @@
     src: url(../src/media/fonts/coolvetica\ rg.otf);
 }
 
+@font-face {
+    font-family: "SFPro";
+    src: url(../src/media/fonts/SFPRODISPLAYBOLD.OTF);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -29,4 +34,3 @@
 ::-webkit-scrollbar-thumb {
     background-color: var(--primary-brand-color);
 }
-

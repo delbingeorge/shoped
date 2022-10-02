@@ -1,10 +1,15 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
+
 import React from "react";
+import { Link } from "react-scroll";
 
 import "../Footer/Footer.css";
 import footerImg from "../Footer/footerImg.png";
 function Footer() {
     return (
         <div>
+            
             <footer id="footer">
                 <div className="footer-item">
                     <img src={footerImg}></img>
