@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: "Coolvetica";
     src: url(../src/media/fonts/coolvetica\ rg.otf);
-}
+} */
 
 @font-face {
     font-family: "SFPro";
@@ -12,7 +12,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Coolvetica";
+    /* font-family: "Coolvetica"; */
+    font-family: "SFPro";
     font-weight: 100;
     /* user-select: none; */
 }

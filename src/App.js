@@ -5,7 +5,6 @@ import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import NavBar from "./pages/NavBar/NavBar";
 import HeroSection from "./pages/HeroSection/HeroSection";
-// import Category from "./pages/Category/Category";
 import Footer from "./pages/Footer/Footer";
 import Faviconfile from "../src/media/favicon.png";
 import Products from "./pages/Product/Products";
@@ -21,6 +20,7 @@ function App() {
                 <Route path="your-cart" element={<Cart />}></Route>
                 <Route path="your-fav" element={<Fav />}></Route>
                 <Route path="products" element={<Products />}></Route>
+                <Route path="ele" element={<Products />}></Route>
             </Routes>
             <Footer />
         </div>

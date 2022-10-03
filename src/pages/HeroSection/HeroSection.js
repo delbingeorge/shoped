@@ -14,7 +14,7 @@ function HeroSection() {
                         <h2>All New</h2>
                         <h1>
                             Iphone 14 & <br></br>
-                            Iphone 14 Plus
+                            Iphone 14 Pro
                         </h1>
                         <h3>Oh. So. Pro.</h3>
                         <Link

@@ -120,7 +120,12 @@ function Gadgets() {
                                         <button className="add-cart-btn">
                                             <FontAwesomeIcon icon={faCartPlus} /> Add to Cart
                                         </button>
-                                        <button className="add-fav-btn">
+                                        <button
+                                            className="add-fav-btn"
+                                            onClick={() => {
+                                                console.log("hello");
+                                            }}
+                                        >
                                             <FontAwesomeIcon icon={faHeart} />
                                         </button>
                                     </div>

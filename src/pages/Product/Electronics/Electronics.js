@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faIndianRupee } from "@fortawesome/free-solid-svg-icons";
+import Fav from "../../Fav/Fav";
 
 import "../../Product/Product.css";
 
@@ -37,6 +38,7 @@ function Electronics() {
                     See All
                 </button>
             </section>
+            <Fav />
         </div>
     );
 }
