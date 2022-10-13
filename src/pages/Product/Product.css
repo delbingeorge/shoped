@@ -221,9 +221,9 @@
         font-size: 1.2rem;
     }
 
-    .special-offer {
+    /* .special-offer {
         background-color: var(--primary-brand-color);
         color: var(--primary-brand-white);
         animation: shakeEffect 1s infinite;
-    }
+    } */
 }

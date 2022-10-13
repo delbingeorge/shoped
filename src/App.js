@@ -20,7 +20,7 @@ function App() {
                 <Route path="your-cart" element={<Cart />}></Route>
                 <Route path="your-fav" element={<Fav />}></Route>
                 <Route path="products" element={<Products />}></Route>
-                <Route path="ele" element={<Products />}></Route>
+                {/* <Route path="ele" element={<Products />}></Route> */}
             </Routes>
             <Footer />
         </div>

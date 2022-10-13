@@ -25,37 +25,32 @@ function NavBar() {
                                 </Link> */}
                                 <Link to="" className="hamburger-link">
                                     <li>
-                                        <FontAwesomeIcon className="hamburger-link-icon" icon={faHome}></FontAwesomeIcon>Home
+                                        <FontAwesomeIcon className="hamburger-link-icon" icon={faHome} />
+                                        Home
                                     </li>
                                 </Link>
                                 <Link to="products" className="hamburger-link">
                                     <li>
-                                        <FontAwesomeIcon
-                                            className="hamburger-link-icon"
-                                            icon={faBagShopping}
-                                        ></FontAwesomeIcon>
+                                        <FontAwesomeIcon className="hamburger-link-icon" icon={faBagShopping} />
                                         Product
                                     </li>
                                 </Link>
                                 <Link to="your-fav" className="hamburger-link">
                                     <li>
-                                        <FontAwesomeIcon className="hamburger-link-icon" icon={faHeart}></FontAwesomeIcon>
+                                        <FontAwesomeIcon className="hamburger-link-icon" icon={faHeart} />
                                         Wishlist
                                     </li>
                                 </Link>
                                 <Link to="your-cart" className="hamburger-link">
                                     <li>
-                                        <FontAwesomeIcon
-                                            className="hamburger-link-icon"
-                                            icon={faBagShopping}
-                                        ></FontAwesomeIcon>
+                                        <FontAwesomeIcon className="hamburger-link-icon" icon={faBagShopping} />
                                         Cart
                                     </li>
                                 </Link>
 
                                 <a href="https://delbin.netlify.app" className="hamburger-link">
                                     <li>
-                                        <FontAwesomeIcon className="hamburger-link-icon"></FontAwesomeIcon>
+                                        <FontAwesomeIcon className="hamburger-link-icon" />
                                         About Me
                                     </li>
                                 </a>
