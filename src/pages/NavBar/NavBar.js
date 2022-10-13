@@ -11,6 +11,9 @@ function NavBar() {
         <div>
             <header id="header">
                 <div className="header-item-one">
+                    <Link to="" className="mobile-cart">
+                        <FontAwesomeIcon icon={faCartShopping} />
+                    </Link>
                     <div className="hamburger-menu">
                         <div id="menuToggle">
                             <FontAwesomeIcon icon={faBars} />
@@ -74,9 +77,9 @@ function NavBar() {
                     <Link to="your-cart" className="nav-item-link" spy="true" smooth="true" offset={10} duration={1950}>
                         <FontAwesomeIcon icon={faCartShopping} /> Cart
                     </Link>
-                    <a href="https://delbin.netlify.app" className="nav-item-link">
+                    {/* <a href="https://delbin.netlify.app" className="nav-item-link">
                         About Me
-                    </a>
+                    </a> */}
                     {/* <Link to="your-profile" className="nav-item-link" spy="true" smooth="true" offset={10} duration={1950}>
                         <FontAwesomeIcon icon={faUserAlt} />
                     </Link> */}

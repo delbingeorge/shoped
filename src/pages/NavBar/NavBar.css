@@ -41,6 +41,9 @@ header {
     cursor: pointer;
 }
 
+.mobile-cart {
+    display: none;
+}
 @media only screen and (max-width: 884px) {
     header {
         background-color: var(--primary-brand-white);
@@ -139,5 +142,14 @@ header {
 
     .header-item-two {
         display: none;
+    }
+
+    .mobile-cart {
+        color: #232323;
+        font-size: 1.5rem;
+    }
+
+    .mobile-cart:hover {
+        color: orange;
     }
 }

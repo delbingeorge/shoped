@@ -42,17 +42,15 @@
     margin-bottom: 20px;
 }
 
-.special-offer {
+/* .special-offer {
     background-color: var(--primary-brand-color);
     color: var(--primary-brand-white);
     animation: breathEffect 5s infinite;
-}
-
-.special-offer:hover {
+}  .special-offer:hover {
     background-color: var(--primary-brand-color);
     color: var(--primary-brand-white);
     animation: shakeEffect 1s infinite;
-}
+} */
 
 @keyframes breathEffect {
     0% {

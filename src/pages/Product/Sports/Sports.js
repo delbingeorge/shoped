@@ -43,6 +43,14 @@ function Sports() {
                             <FontAwesomeIcon icon={faIndianRupee} />
                             7995.00
                         </h1>
+                        <div className="item-action-btn">
+                            <button className="add-cart-btn">
+                                <FontAwesomeIcon icon={faCartPlus} /> Add to Cart
+                            </button>
+                            <button className="add-fav-btn">
+                                <FontAwesomeIcon icon={faHeart} />
+                            </button>
+                        </div>
                     </div>
                     <div className="product-item">
                         <img src={jerseyImg} alt="Men's Football Club Kit"></img>
@@ -51,6 +59,14 @@ function Sports() {
                             <FontAwesomeIcon icon={faIndianRupee} />
                             995.00
                         </h1>
+                        <div className="item-action-btn">
+                            <button className="add-cart-btn">
+                                <FontAwesomeIcon icon={faCartPlus} /> Add to Cart
+                            </button>
+                            <button className="add-fav-btn">
+                                <FontAwesomeIcon icon={faHeart} />
+                            </button>
+                        </div>
                     </div>
                     <div className="product-item">
                         <img src={footballImg} alt="Nike World Cup Football"></img>
@@ -59,6 +75,14 @@ function Sports() {
                             <FontAwesomeIcon icon={faIndianRupee} />
                             795.00
                         </h1>
+                        <div className="item-action-btn">
+                            <button className="add-cart-btn">
+                                <FontAwesomeIcon icon={faCartPlus} /> Add to Cart
+                            </button>
+                            <button className="add-fav-btn">
+                                <FontAwesomeIcon icon={faHeart} />
+                            </button>
+                        </div>
                     </div>
                     <div className="product-item">
                         <img src={shoeImg} alt="Nike Basketball Shoes"></img>
@@ -67,6 +91,14 @@ function Sports() {
                             <FontAwesomeIcon icon={faIndianRupee} />
                             2995.00
                         </h1>
+                        <div className="item-action-btn">
+                            <button className="add-cart-btn">
+                                <FontAwesomeIcon icon={faCartPlus} /> Add to Cart
+                            </button>
+                            <button className="add-fav-btn">
+                                <FontAwesomeIcon icon={faHeart} />
+                            </button>
+                        </div>
                     </div>
                 </div>
                 {show ? (

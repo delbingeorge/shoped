@@ -41,6 +41,14 @@ function Fashion() {
                             <FontAwesomeIcon icon={faIndianRupee} />
                             7995.00
                         </h1>
+                        <div className="item-action-btn">
+                            <button className="add-cart-btn">
+                                <FontAwesomeIcon icon={faCartPlus} /> Add to Cart
+                            </button>
+                            <button className="add-fav-btn">
+                                <FontAwesomeIcon icon={faHeart} />
+                            </button>
+                        </div>
                     </div>
                     <div className="product-item special-offer ">
                         <img src={tshirtMerch} alt="Nike Casual Wear"></img>
@@ -49,6 +57,14 @@ function Fashion() {
                             <FontAwesomeIcon icon={faIndianRupee} />
                             995.00
                         </h1>
+                        <div className="item-action-btn">
+                            <button className="add-cart-btn">
+                                <FontAwesomeIcon icon={faCartPlus} /> Add to Cart
+                            </button>
+                            <button className="add-fav-btn">
+                                <FontAwesomeIcon icon={faHeart} />
+                            </button>
+                        </div>
                     </div>
                     <div className="product-item">
                         <img src={hoodyImg} alt="Night Black Hoody"></img>
@@ -57,6 +73,14 @@ function Fashion() {
                             <FontAwesomeIcon icon={faIndianRupee} />
                             795.00
                         </h1>
+                        <div className="item-action-btn">
+                            <button className="add-cart-btn">
+                                <FontAwesomeIcon icon={faCartPlus} /> Add to Cart
+                            </button>
+                            <button className="add-fav-btn">
+                                <FontAwesomeIcon icon={faHeart} />
+                            </button>
+                        </div>
                     </div>
                     <div className="product-item">
                         <img src={redHoody} alt="Red Hoody Outfit"></img>
@@ -65,6 +89,14 @@ function Fashion() {
                             <FontAwesomeIcon icon={faIndianRupee} />
                             2995.00
                         </h1>
+                        <div className="item-action-btn">
+                            <button className="add-cart-btn">
+                                <FontAwesomeIcon icon={faCartPlus} /> Add to Cart
+                            </button>
+                            <button className="add-fav-btn">
+                                <FontAwesomeIcon icon={faHeart} />
+                            </button>
+                        </div>
                     </div>
                 </div>
                 {show ? (

@@ -11,14 +11,14 @@ function Footer() {
                 </div>
                 <div className="footer-item">
                     <h1>Get to Know Us</h1>
-                    <a href="https://delbin.netlify.app">About Us</a>
-                    <a href="https://delbin.netlify.app">Customer Care</a>
-                    <a href="https://delbin.netlify.app">Privacy & Policy</a>
-                    <a href="https://delbin.netlify.app">Careers</a>
-                    <a href="https://delbin.netlify.app">Newsletter</a>
-                    <a href="https://delbin.netlify.app">Press Releases</a>
-                    <a href="https://delbin.netlify.app">Amazon Cares</a>
-                    <a href="https://delbin.netlify.app">Report Abuse</a>
+                    <a href="https://delb.in">About Us</a>
+                    <a href="https://delb.in">Customer Care</a>
+                    <a href="https://delb.in">Privacy & Policy</a>
+                    <a href="https://delb.in">Careers</a>
+                    <a href="https://delb.in">Newsletter</a>
+                    <a href="https://delb.in">Press Releases</a>
+                    <a href="https://delb.in">Amazon Cares</a>
+                    <a href="https://delb.in">Report Abuse</a>
                 </div>
                 <div className="footer-item">
                     <h1>Connect with Us</h1>
